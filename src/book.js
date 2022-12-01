@@ -20,16 +20,16 @@ function saveReview(review, array) {
 };
 
 
-// function calculatePageCount() {
-
-// };
+function calculatePageCount(bookTitle) {
+  return bookTitle.length * 20;
+};
 
 
 module.exports = {
   createTitle,
   buildMainCharacter,
   saveReview,
-  // calculatePageCount,
+  calculatePageCount,
   // writeBook,
   // editBook
 }

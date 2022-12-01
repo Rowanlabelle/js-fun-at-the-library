@@ -100,7 +100,7 @@ describe("book.js", function () {
       assert.equal(bookPageCount, 340);
     });
 
-    it.skip("should add 20 pages per letter for a different title", function () {
+    it("should add 20 pages per letter for a different title", function () {
       var bookTitle = createTitle("Dragon in the Summer");
       var bookPageCount = calculatePageCount(bookTitle);
 
