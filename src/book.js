@@ -35,11 +35,15 @@ function writeBook(title, character, genre) {
   return book;
 };
 
+function editBook(corn) {
+  corn.pageCount = corn.pageCount * .75;
+};
+
 module.exports = {
   createTitle,
   buildMainCharacter,
   saveReview,
   calculatePageCount,
   writeBook,
-  // editBook
+  editBook
 }
