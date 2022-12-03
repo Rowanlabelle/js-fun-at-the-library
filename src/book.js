@@ -35,8 +35,8 @@ function writeBook(title, character, genre) {
   return book;
 };
 
-function editBook(corn) {
-  corn.pageCount = corn.pageCount * .75;
+function editBook(book) {
+  book.pageCount = book.pageCount * .75;
 };
 
 module.exports = {
@@ -46,4 +46,4 @@ module.exports = {
   calculatePageCount,
   writeBook,
   editBook
-}
+};
