@@ -17,8 +17,8 @@ var title = 'Eldest';
 var pages = 668;
 
 pages = Math.round(pages * .25);
-console.log(pages);
-// 
+
+//  
 // Reassign (not initialize) your "pages" variable from above. An editor came around and
 // condensed the book, use a built in math operator to make the page count a quarter
 // of what it currently is 
@@ -45,7 +45,6 @@ var isFavorite = true;
 // variable should be true, otherwise it should be false. You MUST use a
 // comparison operator.
 var isShortStory = pages < 25;
-console.log(isShortStory);
 
 //------------------------- Conditionals -------------------------//
 
@@ -104,4 +103,3 @@ var dictionary = {
 // notation to do this. DO NOT modify your code from above.
 
 dictionary.pageCount = 720;
-console.log(dictionary);
