@@ -4,8 +4,8 @@ class Librarian {
     this.library = library;
   };
   
-  greetPatron(name, morning) {
-    if (morning === true) {
+  greetPatron(name, isMorning) {
+    if (isMorning === true) {
       return `Good morning, ${name}!`
     } else {
       return `Hello, ${name}!`

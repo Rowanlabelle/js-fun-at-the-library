@@ -1,6 +1,6 @@
-function createLibrary(libName) {
+function createLibrary(libraryName) {
   var library = {
-    name: libName,
+    name: libraryName,
     shelves: {
         fantasy: [],
         fiction: [],

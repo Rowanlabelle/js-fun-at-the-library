@@ -13,9 +13,9 @@ function buildMainCharacter(name, age, pronouns) {
 };
 
 
-function saveReview(review, array) { 
-  if (array.includes(review) === false) {
-    array.push(review);
+function saveReview(newReview, allReviews) { 
+  if (allReviews.includes(newReview) === false) {
+    allReviews.push(newReview);
   };
 };
 
